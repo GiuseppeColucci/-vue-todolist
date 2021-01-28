@@ -18,9 +18,39 @@ body{
 .text-left{
     display: flex;
     justify-content: center;
+
+}
+.text-left ul{
+    max-width: 60%;
+}
+.text-left ul li{
+    list-style: none;
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    width: 370px;
+}
+.text-left ul li i{
+    cursor: pointer;
+    margin-left: 50px;
 }
 .area{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 20px;
+}
+.area input{
+    width: 300px;
+    height: 30px;
+    border-radius: 30px;
+    margin: 0 15px;
+}
+.area button{
+    background-color: #33495e;
+    color: #f33557;
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    cursor: pointer;
 }
