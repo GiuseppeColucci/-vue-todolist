@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    background-image: url(https://i.pinimg.com/736x/ad/fa/ff/adfaff7eb4b88632ce97361c36305382.jpg);
+    background-repeat: no-repeat;
+    background-color: #33495e;
+    color: #f33557;
+}
+.container{
+   max-width: 1200px;
+   margin: 0 auto;
+    
+}
+.text-left{
+    display: flex;
+    justify-content: center;
+}
+.area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

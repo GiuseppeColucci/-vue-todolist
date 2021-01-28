@@ -14,9 +14,11 @@ new Vue({
     methods:{
         invio:function(){
             this.boxInput.push(this.messag)
+            this.messag=''
         },
         delet:function(index){
-            this.boxInput.splice(index, 1) 
+            this.boxInput.splice(index, 1)
+             
         }
        
     }
