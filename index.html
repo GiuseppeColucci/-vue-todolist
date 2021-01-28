@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="app">
+        <input v-model='messag'v-on:keyup.enter='invio'>
+        <button @click='invio'> inserisci</button>
+    
+
+       <ul>
+           <li v-if='boxInput=== 0'>
+               lista vuota
+           </li>
+           <li v-for='(box,index) in boxInput'>{{box}}</li>
+           <li><i @click="delet(index)" class="fas fa-backspace"></i></li>
+       </ul>
+    </div>
+
+
+
+
+
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
